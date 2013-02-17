@@ -1,0 +1,118 @@
+/* GENERAL */
+	html {
+		height:100%;
+	}
+	body {
+		margin: 0;
+		padding: 0;
+		height:100%;
+		min-width:1500px;
+	}		
+	#all_container {
+		min-height:100%;
+		margin: 0 500px;
+		border-width:0px;			
+		border-color:#cccccc;
+		border-style:solid;
+		background: #080808;
+	}
+	* {
+		color:white;
+	}
+	ul,li {
+		padding:0;
+		margin:0;
+	}
+	ul {
+		list-style:none;
+	}		
+	
+/* TOP */
+	#top {
+		height:165px;
+		background-color:#404040;
+	}		
+	#menu_container {
+		margin:20px;
+		width:140px;
+		position:absolute;
+		top:0;
+	}		
+	#logo_container {
+		width:300px;
+		margin: auto;
+	}	
+	img#logo {
+		border:0;
+		width:300px;
+		height:165px;
+	}		
+	
+/* MAIN */
+	
+	/* MAIN CONTAINER */
+		#main_container {
+			text-align:justify;
+			margin:30px;
+			padding:0;
+		}
+	
+	/* LEFT SIDEBAR */
+		#sidebar_left {
+			width:500px;
+			white-space:nowrap;
+			position:fixed;
+			left:0;
+			top:0;
+			border-right:1px solid #cccccc;
+			height:100%;
+			background-color:#171717;
+			overflow:auto;			
+		}		
+		.playlist_song_info li {
+			display:inline;
+		}		
+	
+	/* RIGHT SIDEBAR */
+		#sidebar_right{
+			width:500px;
+			white-space:nowrap;	
+			position:fixed;
+			right:0;
+			top:0;
+			border-left:1px solid #cccccc;
+			height:99%;
+			background-color:#171717;
+		}
+		#player_container {
+			}	
+		img#player {
+			border-bottom:1px solid #cccccc;
+			width:500px;
+			height:250px;
+		}
+		#active_playlists_container {
+			overflow:auto;
+			margin:0px 20px;
+			height:100%;
+			max-height:650px;
+		}	
+		#active_playlists {
+
+		}
+		.active_playlist_song_info li {
+			display:inline;
+		}
+		
+		#active_playlists_buttons_container {
+			position:fixed;
+			bottom:0;
+			margin:10px 20px;
+		}
+		#active_playlists_buttons_container li {
+			display:inline;
+		}
+	
+/* BOTTOM */
+	#bottom {
+	}
