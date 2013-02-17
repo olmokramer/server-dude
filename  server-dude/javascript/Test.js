@@ -1,0 +1,6 @@
+Bla = {
+	init: function() {
+	
+	}
+	
+};

@@ -1,0 +1,139 @@
+/* GENERAL */
+	html {
+		height:100%;
+	}
+	body {
+		margin: 0;
+		padding: 0;
+		height:100%;
+		min-width:1040px;
+	}		
+	#all_container {
+		height:100%;
+			}
+	* {
+		color:white;
+	}
+	ul,li {
+		padding:0;
+		margin:0;
+	}
+	ul {
+		list-style:none;
+	}		
+	
+/* TOP */
+	#top {
+		height:250px;
+		border-bottom:1px solid #cccccc;
+		background-color:#353535;
+	}		
+	#menu_container {
+		margin:20px;
+		width:99px;
+		float:left;
+	}		
+	#logo_container {
+		width:300px;
+		margin:10px 30px;
+		float:left;
+		}
+	img#logo {
+		border:0;
+		width:300px;
+		height:165px;
+	}		
+	#player_container {
+		width:500px;
+		float:right;
+		height:250px;
+		background-color:#555555;
+		border-left:1px solid #cccccc;
+
+		}	
+	img#player {
+		/*position:fixed;*/
+		border:0;
+		width:500px;
+		height:250px;
+	}
+	
+/* MAIN */
+	#main {
+		padding-left:320px;
+		padding-right:360px;
+		float:left;
+		/*Firefox*/
+		height:-moz-calc(100% - 291px);
+		/*Chrome and Safari*/
+		height:-webkit-calc(100% - 291px);
+		/*Opera*/
+		/*Doesn't seem to work*/
+		height:-o-calc(100% - 291px);
+		/*Standard / IE9*/
+		height:calc(100% - 291px);
+		/*IE<=7*/
+		/*Don't know if this works:
+		height:expression(100% - 291px);*/
+	}
+
+	/* MAIN CONTAINER */
+		#main_container {
+			float:left;
+			width:100%;
+			position:relative;
+			padding:20px;
+			height:100%;
+			overflow:auto;
+		}
+	
+	/* LEFT SIDEBAR */
+		#sidebar_left {
+			width:279px;			
+			float:left;
+			position:relative;
+			right:360px;
+			margin-left:-100%;
+			overflow:auto;
+			white-space:nowrap;
+			border-right:1px solid #cccccc;
+			padding:20px;
+			height:100%;
+		}		
+		.playlist_song_info li {
+			display:inline;
+		}			
+	
+	/* RIGHT SIDEBAR */
+		#sidebar_right{
+			float:left;
+			width:299px;
+			margin-right:-100%;
+			white-space:nowrap;	
+			border-left:1px solid #cccccc;
+			position:relative;
+			padding:20px 0 20px 20px;
+			height:100%;
+		}
+		#active_playlists_container {
+			height:100%;
+			overflow:auto;
+			padding-right:20px;
+		}	
+		#active_playlists {
+		}
+		.active_playlist_song_info li {
+			display:inline;
+		}
+		#active_playlists_buttons_container {
+			padding-top: 0px;
+
+		}
+		#active_playlists_buttons_container li {
+			display:inline;
+		}
+	
+/* BOTTOM */
+	#bottom {
+		clear:both;
+	}
